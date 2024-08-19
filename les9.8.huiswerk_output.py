@@ -2,9 +2,9 @@
 
 def open_bestand():
     try:
-        with open("test.txt", mode="rt", encoding="utf-8") as file:
+        with open("bericht.txt", mode="rt", encoding="utf-8") as file:
             content = file.read()
-            print("Deze tekst werd teruggevonden in test.txt: \n")
+            print("Deze tekst werd teruggevonden in bericht.txt: \n")
             print("\t", "'", content, "'")
     except FileNotFoundError:
         print("Bestand niet gevonden")

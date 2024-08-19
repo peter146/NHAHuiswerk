@@ -11,9 +11,9 @@ def main():
                 if getal > 50: # getal groter dan 50?
                     input_correct = True
                     boodschap = input("Correct! Voer nu een persoonlijke boodschap in: ")
-                    with open("test.txt", mode = "wt", encoding="utf-8") as f:
+                    with open("bericht.txt", mode = "wt", encoding="utf-8") as f:
                         f.writelines(boodschap)
-                    print("Boodschap correct opgeslagen in test.txt")
+                    print("Boodschap correct opgeslagen in bericht.txt")
                 else:
                     print("Getal moet hoger zijn dan 50")
             else:
