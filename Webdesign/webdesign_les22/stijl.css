@@ -1,0 +1,19 @@
+.active {
+    color: red;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(88, 121, 88);
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    min-height: 200px;
+    background-color: rgba(197, 197, 197, 0.623);
+}
